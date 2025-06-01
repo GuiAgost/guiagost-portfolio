@@ -7,10 +7,15 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
+# Dependency folders
 node_modules
 dist
 dist-ssr
 *.local
+docs
+
+# Husky hooks (opcional — se quiser ignorar personalizações locais)
+.husky/_/
 
 # Editor directories and files
 .vscode/*
