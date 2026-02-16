@@ -8,7 +8,8 @@
     "build": "vite build",
     "preview": "vite preview",
     "prepare": "husky install",
-    "test": "echo \"Nenhum teste definido\" && exit 0"
+    "test": "echo \"Nenhum teste definido\" && exit 0",
+    "format": "prettier --write ."
   },
   "devDependencies": {
     "@commitlint/cli": "^19.8.1",
