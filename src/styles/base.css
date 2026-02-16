@@ -1,0 +1,91 @@
+/* ============================= */
+/* RESET LEVE E BASE GLOBAL      */
+/* ============================= */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  line-height: 1.6;
+  font-family:
+    -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu,
+    Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background-color: #ffffff;
+  color: #1e293b;
+  -webkit-font-smoothing: antialiased;
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease;
+}
+
+/* ============================= */
+/* TIPOGRAFIA                    */
+/* ============================= */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: 1.2;
+  font-weight: 600;
+}
+
+p {
+  margin-bottom: 1rem;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* ============================= */
+/* IMAGENS E MÍDIA               */
+/* ============================= */
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* ============================= */
+/* LISTAS                        */
+/* ============================= */
+
+ul,
+ol {
+  list-style: none;
+}
+
+/* ============================= */
+/* BOTÕES                        */
+/* ============================= */
+
+button {
+  font: inherit;
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
+/* ============================= */
+/* CONTAINER PADRÃO              */
+/* ============================= */
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
